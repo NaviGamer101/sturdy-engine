@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maze Runner</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 10px;
+        }
+        #maze-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        #maze {
+            width: 300px;
+            height: 300px;
+            border: 2px solid black;
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+            grid-template-rows: repeat(10, 1fr);
+            position: relative;
+        }
+        .cell {
+            width: 100%;
+            height: 100%;
+        }
+        .wall {
+            background-color: black;
+        }
+        .path {
+            background-color: white;
+        }
+        #player {
+            width: 28px;
+            height: 28px;
+            background-color: red;
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            z-index: 10;
+        }
+        #goal {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Maze Runner</h1>
+    <div id="maze-container">
+        <div id="maze">
+            <div id="player"></div>
+            <!-- Maze Layout -->
+            <!-- Wall Cells -->
+            <div class="cell wall"></div> <!-- Add more wall/path cells as needed -->
+            <div class>****/
+MAZE_ORDER-->/WALKE`
